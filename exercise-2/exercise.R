@@ -1,4 +1,4 @@
-# Exercise 2: Subsetting and Manipulating Vectors
+z# Exercise 2: Subsetting and Manipulating Vectors
 
 # Create a vector `x` that contains the numbers 5,2,6,2,1,7
 x <- c(5, 2, 6, 2, 1, 7)
@@ -13,10 +13,10 @@ z <- x + y
 first.three <- z[1:3]
 
 # Create a vector `small` that has the values of `z` that are less than 5
-small[z < 5]
+small <- z[z < 5]
 
 # Create a vector `large` that has the values of `z` that are greater than or equal to 5
-
+large <- z[z >= 5]
 
 ### Bonus ###
 
